@@ -92,7 +92,7 @@ const {
        var _0x2fe2c7 = "" + _0x2608ab + _0x3a49e9;
        var _0x539d8f = {
          externalAdReply: {
-           title: "QUEEN_ANITA-V2",
+           title: "BRAINIAC",
            body: "" + _0x37b490,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -134,7 +134,7 @@ const {
        var _0x236a49 = _0x10288a + "-" + _0x436585.toString().padStart(2, "0") + "-" + _0x511884.toString().padStart(2, "0");
        var _0x56eaaf = {
          externalAdReply: {
-           title: "QUEEN_ANITA-V2",
+           title: "BRAINIAC",
            body: _0x5f4890.subject,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -151,7 +151,7 @@ const {
        await _0x4f7c88.send("*_Group Id not found, Sorry!!_*");
      }
    } catch (_0x36c345) {
-     await _0x4f7c88.error(_0x36c345 + "\n\ncommand: ginfo", _0x36c345, "*_Group Id not found, Sorry!!_*");
+     await _0x4f7c88.error(_0x36c345 + "\n\ncommand: ginfo", _0x36c345, "*_Group Id not found, Sorry!!_Brainiac BOT😓*");
    }
  });
  smd({
@@ -274,7 +274,7 @@ const {
      }
      try {
        await _0x160b96.bot.groupUpdateDescription(_0x160b96.chat, _0x4ef0da + "\n\n\t" + Config.caption);
-       _0x160b96.reply("*_✅Group description Updated Successfuly!_*");
+       _0x160b96.reply("*_✅Group description Updated Successfuly!_Brainiac BOT😌");
      } catch (_0x986809) {
        await _0x160b96.reply("*_Can't update description, Group Id not found!!_*");
      }
@@ -295,14 +295,14 @@ const {
        return _0x25d56b.reply(tlang().group);
      }
      if (!_0x332d77) {
-       return await _0x25d56b.reply("*Uhh Dear, Give text to Update This Group Name*");
+       return await _0x25d56b.reply("*Uhh Dear, Give text to Update This Group Name_Brainiac BOT*");
      }
      if (!_0x25d56b.isBotAdmin || !_0x25d56b.isAdmin) {
        return await _0x25d56b.reply(!_0x25d56b.isBotAdmin ? "*_I'm Not Admin In This Group" + (!_0x25d56b.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
      }
      try {
        await _0x25d56b.bot.groupUpdateSubject(_0x25d56b.chat, _0x332d77);
-       _0x25d56b.reply("*_✅Group Name Updated Successfuly.!_*");
+       _0x25d56b.reply("*_✅Group Name Updated Successfuly By Brainiac BOT😌.!_*");
      } catch (_0x379b84) {
        await _0x25d56b.reply("*_Can't update name, Group Id not found!!_*");
      }
@@ -345,7 +345,7 @@ const {
        return await _0x5ac912.send(tlang().group, {}, "", _0x5ac912);
      }
      if (!_0x5ac912.isBotAdmin || !_0x5ac912.isAdmin) {
-       return await _0x5ac912.reply(!_0x5ac912.isBotAdmin ? "*_I'm Not Admin In This Group" + (!_0x5ac912.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
+       return await _0x5ac912.reply(!_0x5ac912.isBotAdmin ? "*_I'm Not Admin In This Group_Braniac " + (!_0x5ac912.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
      }
      let _0xc0618e = mtypes.includes(_0x5ac912.mtype) ? _0x5ac912 : _0x5ac912.reply_message;
      if (!_0xc0618e || !mtypes.includes(_0xc0618e?.mtype || "need_Media")) {
@@ -368,7 +368,7 @@ const {
        return await _0x31201a.send(tlang().group, {}, "", _0x31201a);
      }
      if (!_0x31201a.isBotAdmin || !_0x31201a.isAdmin) {
-       return await _0x31201a.reply(!_0x31201a.isBotAdmin ? "*_I'm Not Admin In This Group" + (!_0x31201a.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
+       return await _0x31201a.reply(!_0x31201a.isBotAdmin ? "*_I'm Not Admin In This Group_Brainiac" + (!_0x31201a.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
      }
      let _0x3fba56 = mtypes.includes(_0x31201a.mtype) ? _0x31201a : _0x31201a.reply_message;
      if (!_0x3fba56 || !mtypes.includes(_0x3fba56?.mtype || "need_Media")) {
@@ -517,12 +517,12 @@ const {
        return _0x53f8e3.reply(tlang().group);
      }
      if (!_0x53f8e3.isBotAdmin) {
-       return _0x53f8e3.reply("*_I'm Not Admin, So I can't Send Invite Link_*");
+       return _0x53f8e3.reply("*_I'm Not Admin, So I can't Send Invite Link_Brainiac*");
      }
      var _0x53ec11 = await _0x53f8e3.bot.groupInviteCode(_0x53f8e3.chat);
      var _0x2e549f = "https://chat.whatsapp.com/";
      var _0x41db31 = "" + _0x2e549f + _0x53ec11;
-     return _0x53f8e3.reply("*Group Invite Link Is Here* \n*" + _0x41db31 + "*");
+     return _0x53f8e3.reply("*Group Invite Link Is Here_Brainiac* \n*" + _0x41db31 + "*");
    } catch (_0x4e30e8) {
      await _0x53f8e3.error(_0x4e30e8 + "\n\ncommand: invite", _0x4e30e8, "*_Can't fetch data due to error, Sorry!!_*");
    }
@@ -538,10 +538,10 @@ const {
        return _0x451b0f.reply(tlang().group);
      }
      if (!_0x451b0f.isBotAdmin) {
-       return _0x451b0f.reply("*_I'm Not Admin, So I Can't ReSet Group Invite Link_*");
+       return _0x451b0f.reply("*_I'm Not Admin, So I Can't ReSet Group Invite Link_Brainiac*");
      }
      await _0x451b0f.bot.groupRevokeInvite(_0x451b0f.chat);
-     return _0x451b0f.reply("*_Group Link Revoked SuccesFully_*");
+     return _0x451b0f.reply("*_Group Link Revoked SuccesFully_Brainiac*");
    } catch (_0x142e95) {
      await _0x451b0f.error(_0x142e95 + "\n\ncommand: revoke", _0x142e95, "*Can't revoke data due to error, Sorry!!*");
    }
@@ -560,7 +560,7 @@ const {
      if (!_0x1ed055.isAdmin && !_0x1ed055.isCreator) {
        return _0x1ed055.reply(tlang().admin);
      }
-     let _0x392a2d = "\n══✪〘   *Tag All*   〙✪══\n\n➲ *Message :* " + (_0x929954 ? _0x929954 : "blank Message") + " \n " + Config.caption + " \n\n\n➲ *Author:* " + _0x1ed055.pushName + " 🔖\n";
+     let _0x392a2d = "\n══✪〘   *Tag All*   〙✪══\n\n➲ *Please Be Patient I'm Designed To Tag all Groups Members :* " + (_0x929954 ? _0x929954 : "blank Message") + " \n " + Config.caption + " \n\n\n➲ *Author:* " + _0x1ed055.pushName + " 🔖\n";
      for (let _0x502431 of _0x5d614a) {
        if (!_0x502431.id.startsWith("2348039607375")) {
          _0x392a2d += " 📍 @" + _0x502431.id.split("@")[0] + "\n";
@@ -591,7 +591,7 @@ const {
        return await _0x19564c.reply("*Provide Me Country Code. Example: .kik 212*");
      }
      if (!_0x19564c.isBotAdmin) {
-       return _0x19564c.reply("*_I'm Not Admin, So I can't kik anyone!_*");
+       return _0x19564c.reply("*_I'm Not Admin, So I can't kik anyone!_Brainiac*");
      }
      if (!_0x19564c.isAdmin && !_0x19564c.isCreator) {
        return _0x19564c.reply(tlang().admin);
@@ -689,7 +689,7 @@ const {
  });
  cmd({
    pattern: "promote",
-   desc: "Provides admin role to replied/quoted user",
+   desc: "Provides admin role to replied/quoted user_Brainiac",
    category: "group",
    filename: __filename,
    use: "<quote|reply|number>"
@@ -699,9 +699,9 @@ const {
        return _0x324f8b.reply(tlang().group);
      }
      if (!_0x324f8b.isBotAdmin) {
-       return _0x324f8b.reply("*_I'm Not Admin Here, So I Can't Promote Someone_*");
+       return _0x324f8b.reply("*_I'm Not Admin Here, So I Can't Promote Someone_Brainiac*");
      }
-     if (!_0x324f8b.isAdmin) {
+     if (!_0x324f8b.isAdmin) 
        return _0x324f8b.reply(tlang().admin);
      }
      let _0x8f9e68 = _0x324f8b.mentionedJid[0] ? _0x324f8b.mentionedJid[0] : _0x324f8b.quoted ? _0x324f8b.quoted.sender : false;
@@ -728,7 +728,7 @@ const {
        return _0x5e533c.reply(tlang().group);
      }
      if (!_0x5e533c.isBotAdmin) {
-       return await _0x5e533c.reply("*_I'm Not Admin In This Group, Idiot_*");
+       return await _0x5e533c.reply("*_I'm Not Admin In This Group, Brainiac_*");
      }
      if (!_0x5e533c.isAdmin) {
        return _0x5e533c.reply(tlang().admin);
@@ -738,10 +738,10 @@ const {
        return await _0x5e533c.reply("*Uhh dear, reply/mention an User*");
      }
      if (_0x5e533c.checkBot(_0x4e844a)) {
-       return await _0x5e533c.reply("*Huh, I can't kick my Creator!!*");
+       return await _0x5e533c.reply("*Huh, I can't kick my Creator_Brainiac!!*");
      }
      await _0x5e533c.bot.groupParticipantsUpdate(_0x5e533c.chat, [_0x4e844a], "remove");
-     await _0x5e533c.send("*Hurray, @" + _0x4e844a.split("@")[0] + " Kicked Succesfully!*", {
+     await _0x5e533c.send("*Hurray, @" + _0x4e844a.split("@")[0] + " Kicked Succesfully👿!*", {
        mentions: [_0x4e844a]
      });
    } catch (_0x14d7b9) {
@@ -808,7 +808,7 @@ const {
        return _0xb552a2.reply(tlang().group);
      }
      if (!_0x39ba38) {
-       return _0xb552a2.reply("*Which type of User you want?*");
+       return _0xb552a2.reply("*Which type of User you want?_Brainiac*");
      }
      let _0x4fd8bc = _0xb552a2.metadata.participants.map(_0x8b1e4d => _0x8b1e4d.id);
      let _0x2dfc12 = _0x4fd8bc[Math.floor(Math.random() * _0x4fd8bc.length)];
@@ -926,7 +926,7 @@ const {
        return _0x1dca9f.reply(tlang().group);
      }
      if (_0x1dca9f.metadata.restrict) {
-       return await _0x1dca9f.reply("*Hey " + (_0x1dca9f.isAstro ? "Master" : "Sir") + ", Group setting already locked*");
+       return await _0x1dca9f.reply("*Hey " + (_0x1dca9f.isAstro ? "Master" : "Sir") + ", Group setting already locked_Brainiac*");
      }
      if (!_0x1dca9f.isBotAdmin) {
        return await _0x1dca9f.reply("*_I'm not admin!_*");
@@ -935,7 +935,7 @@ const {
      if (!_0x1dca9f.isCreator && !_0x1dca9f.isAdmin) {
        return _0x1dca9f.reply(tlang().admin);
      }
-     await _0x1dca9f.bot.groupSettingUpdate(_0x1dca9f.chat, "locked").then(_0x49c387 => _0x1dca9f.reply("*_Group locked, Only Admin can change group settinggs!!_*")).catch(_0x100d44 => _0x1dca9f.reply("*_Can't change Group Setting, Sorry!_*"));
+     await _0x1dca9f.bot.groupSettingUpdate(_0x1dca9f.chat, "locked").then(_0x49c387 => _0x1dca9f.reply("*_Group locked, Only Admin can change group settinggs!!_Brainiac BOT😈*")).catch(_0x100d44 => _0x1dca9f.reply("*_Can't change Group Setting, Sorry!_*"));
    } catch (_0x9e6207) {
      await _0x1dca9f.error(_0x9e6207 + "\n\ncommand: lock", _0x9e6207);
    }
@@ -951,16 +951,16 @@ const {
        return _0xe880ee.reply(tlang().group);
      }
      if (!_0xe880ee.metadata.restrict) {
-       return await _0xe880ee.reply("*Hey " + (_0xe880ee.isAstro ? "Master" : "Sir") + ", Group setting already unlocked*");
+       return await _0xe880ee.reply("*Hey " + (_0xe880ee.isAstro ? "Master" : "Sir") + ", Group setting already unlocked_Brainiac BOT*");
      }
      if (!_0xe880ee.isBotAdmin) {
-       return await _0xe880ee.reply("*_I'm not admin!_*");
+       return await _0xe880ee.reply("*_I'm not admin!_Brainiac BOT🤦*");
      }
      ;
      if (!_0xe880ee.isCreator && !_0xe880ee.isAdmin) {
        return _0xe880ee.reply(tlang().admin);
      }
-     await _0xe880ee.bot.groupSettingUpdate(_0xe880ee.chat, "unlocked").then(_0x282118 => _0xe880ee.reply("*_Group unlocked, everyone change group settings!!_*")).catch(_0x320353 => _0xe880ee.reply("*_Can't change Group Setting, Sorry!_*"));
+     await _0xe880ee.bot.groupSettingUpdate(_0xe880ee.chat, "unlocked").then(_0x282118 => _0xe880ee.reply("*_Group unlocked, everyone change group settings!!_Brainiac*")).catch(_0x320353 => _0xe880ee.reply("*_Can't change Group Setting, Sorry!_*"));
    } catch (_0x20d64c) {
      await _0xe880ee.error(_0x20d64c + "\n\ncommand: unlock", _0x20d64c);
    }
@@ -1000,7 +1000,7 @@ const {
        _0x48bdf1 = _0x5398f9;
      }
      if (!_0x48bdf1) {
-       return await _0x378ec3.send("*_Uhh dear, reply to message!!!_*");
+       return await _0x378ec3.send("*_Uhh dear, Please reply to message!!!_*Brainiac*");
      }
      return await _0x378ec3.send(_0x48bdf1, {
        caption: _0x9ec626,
@@ -1046,7 +1046,7 @@ const {
        return _0x3d5ec9.reply(tlang().group);
      }
      if (!_0x3d5ec9.isBotAdmin) {
-       return await _0x3d5ec9.reply("*_I'm Not Admin In This Group, " + (_0x3d5ec9.isAstro ? "Master" : "Sir") + "_*");
+       return await _0x3d5ec9.reply("*_I'm Not Admin In This Group,_Brainiac" + (_0x3d5ec9.isAstro ? "Master" : "Sir") + "_*");
      }
      if (!_0x3d5ec9.isAdmin) {
        return _0x3d5ec9.reply(tlang().admin);
@@ -1119,14 +1119,14 @@ const {
        return _0x118677.reply(tlang().group);
      }
      if (!_0x118677.isBotAdmin) {
-       return await _0x118677.reply("*_I'm Not Admin In This Group, Idiot_*");
+       return await _0x118677.reply("*_I'm Not Admin In This Group, Idiot_Brainiac BOT👿*");
      }
      if (!_0x118677.isAdmin) {
        return _0x118677.reply(tlang().admin);
      }
      let _0x3ce3f1 = _0x118677.mentionedJid[0] ? _0x118677.mentionedJid[0] : _0x118677.reply_message ? _0x118677.reply_message.sender : false;
      if (!_0x3ce3f1) {
-       return await _0x118677.reply("*Uhh dear, reply/mention an User*");
+       return await _0x118677.reply("*Uhh dear, reply/mention an User*_Brainiac BOT");
      }
      if (_0x118677.checkBot(_0x3ce3f1)) {
        return await _0x118677.reply("*_Huh, I can't demote my creator!!_*");
@@ -1135,7 +1135,7 @@ const {
        await _0x118677.bot.groupParticipantsUpdate(_0x118677.chat, [_0x3ce3f1], "demote");
        await _0x118677.reply("*_User demote sucessfully!!_*");
      } catch (_0x5e7b02) {
-       await _0x118677.reply("*_Can,t demote user, try it manually, Sorry!!_*");
+       await _0x118677.reply("*_Can,t demote user, try it manually, Sorry!!_Brainiac BOT*");
      }
    } catch (_0x307b66) {
      await _0x118677.error(_0x307b66 + "\n\ncommand: demote", _0x307b66);
@@ -1151,14 +1151,14 @@ const {
  }, async _0x320d81 => {
    try {
      if (!_0x320d81.reply_message) {
-       return _0x320d81.reply("*_Please reply to a message!!!_*");
+       return _0x320d81.reply("*_Please reply to a message!!!_Brainiac BOT👿*");
      }
      let _0x3776d3 = _0x320d81.reply_message;
      if (_0x3776d3 && _0x3776d3.fromMe && _0x320d81.isCreator) {
        return _0x3776d3.delete();
      } else if (_0x3776d3 && _0x320d81.isGroup) {
        if (!_0x320d81.isBotAdmin) {
-         return _0x320d81.reply("*I can't delete messages without getting Admin Role.*");
+         return _0x320d81.reply("*I can't delete messages without getting Admin Role,_Brainiac BOT🌚*");
        }
        if (!_0x320d81.isAdmin) {
          return _0x320d81.reply(tlang().admin);
@@ -1181,7 +1181,7 @@ const {
  }, async (_0x553d05, _0x5d14a3) => {
    try {
      if (!_0x5d14a3) {
-       return await _0x553d05.reply("*_Uhh Dear, Provide text to broadcast in all groups_*");
+       return await _0x553d05.reply("*_Uhh Dear, Provide text to broadcast in all groups_Brainiac BOT✍️*");
      }
      let _0x387241 = await _0x553d05.bot.groupFetchAllParticipating();
      let _0x32f9c9 = Object.entries(_0x387241).slice(0).map(_0x3ccabe => _0x3ccabe[1]);
