@@ -1,13 +1,13 @@
 {
     "__JSON__": true,
-    "AUTHOR": "David Cyril",
-    "theme": "QUEEN_ANITA-V2",
+    "AUTHOR": "Brainiac",
+    "theme": "Brainiac BoT",
     "LANGUAGE": "English",
     "LANGCODE": "en",  
     "STRINGS": { 
         "updater": { 
             "UPDATE": "Bot is up to date.",
-            "UPDATED_LOCAL": "Updated Bot successfully"
+            "UPDATED_LOCAL": "Updated Bot successfully Brainiac."
         },  
         "global": {      
             "botName": "QUEEN_ANITA-V2",
@@ -21,9 +21,9 @@
             "pic6": "https://i.imgur.com/EBUvKfB.jpeg", 
             "pic7": "https://i.imgur.com/EBUvKfB.jpeg",
             "greet" : "Hey there",
-            "dotbody" : "Oh Sir David My Creator.",
+            "dotbody" : "Oh Sir Brainiac My Creator.",
             "emojii" : "🍑", 
-            "promote": "Anita is an Admin",
+            "promote": "Brainiac is an Admin",
             "pmallow": "Hello &user Do not Spam",
             "permited": "Hello Sir you Can Message Me Now.", 
             "revoked" : "Hello sir your Permission was rejected.",
@@ -31,9 +31,9 @@
             "antlink": "Link Detected.\n*I Have rremoved the violator*",
             "session": "\n kepp your session id safe sir",
             "mention": "Tag my owner",
-            "title": "QUEEN_ANITA-V2",
-            "footer": "QUEEN_ANITA-V2",
-            "by": "Made by David Cyril",
+            "title": "BRAINIAC 😈",
+            "footer": "BRAINIAC ",
+            "by": "Made by Brainiac",
             "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
             "success": "Done ✓",
             "dot": "Hi, Did you mean *-help?*\n just.. don't bother me while I'm eating ramen",
